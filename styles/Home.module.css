@@ -127,3 +127,50 @@
     filter: invert(1);
   }
 }
+
+/* -----Layout style----- */
+.navbar{
+  font-weight: bolder;
+  font-size: 19px;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-end;
+  height:40px;
+  border-bottom: 1px solid rgba(218, 217, 217, 0.555);
+}
+.navbar li {
+list-style: none;
+padding-right: 40px;
+}
+
+/* -----Home style----- */
+
+.home{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title{
+  font-size: 60px;
+  margin: 40px;
+}
+
+.flexhome{
+  display: flex;
+  background: red;
+  margin: 20px;
+}
+
+.flexhome p{
+  margin-left: 100px;
+}
+
+.flexhome ul li{
+  margin-left: 80px;
+}
+.containerhome{
+  margin-top: 40px;
+}
+
